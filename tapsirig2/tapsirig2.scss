@@ -1,0 +1,629 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+$yellow:#FFFF00;
+$lightgray:#D3D3D3;
+$darkslatesgrey:#2f4f4f;
+
+.mid{
+    display:flex;
+    align-items:center;
+    
+
+}
+.img1{
+    height:100%;
+    width:33%;
+    object-fit: cover;
+    
+}
+.a {
+    background: black;
+    width: 100%;
+    height: 45px;
+}
+.b{
+    width: 100%;
+    height: 85px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+.c{
+    background: black;
+    width: 100%;
+    height: 45px;
+}
+.mid-content{
+    height:323px;
+    width:550px;
+    // background:red;
+    position:absolute;
+    margin-left:120px;
+    gap:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.title-container{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    height:74px;
+    // background:purple;
+}
+.div1{
+    width:100%;
+    // height:40px;
+    font-size:35px;
+    color:white;
+}
+.div2{
+    width:100%;
+    height:24px;
+    color:white;
+    font-size:large;
+}
+.list-container{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    height:130px;
+    // background:black;
+    justify-content:center;
+}
+.div3{
+    height:50px;
+    width:550px;
+    // background:purple;
+    
+    
+}
+.div4{
+    height:50px;
+    width:153.7px;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+
+    
+}
+.div5{
+    height:50px;
+    width:179px;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.span1{
+    height:20px;
+    width:84.7px;
+    
+   
+}
+.span2{
+    height:20px;
+    width:110px;
+    
+}
+.arrow1{
+    font-size:27.5px;;
+    margin-right:8.5px;
+    margin-top:5px;
+}
+.shoes-container{
+    height:388px;
+    width:100%;
+    // background:yellow;
+    display:flex;
+    justify-content:center;
+    margin-bottom:45px;
+}
+.inside-shoescontainer{
+    height:388px;
+    width:86.7%;
+    // background:lightsalmon;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    
+    
+
+}
+.shoes-heading{
+    height:44px;
+    // background:blue;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+
+}
+.buttons-container{
+    height:44px;
+    width:32.4%;
+    // background:red;
+    display:flex;
+    gap:7.5px;
+    
+    
+}
+.button1{
+    width:44.2%;
+    background:black;
+    height:44px;
+    color:white;
+    font-size:25px;
+}
+.button2{
+    width:52.8%;
+    height:44px;
+    font-size:25px;
+}
+.wiewall{
+    width:9.4%;
+    height:24px;
+    
+}
+.shoes{
+    height:312px;;
+    width:100%;
+    // background:darkblue;
+    margin-top:30px;
+}
+.shoe1{
+    height:272px;
+    width:100%;
+    // background:green;
+    display:flex;
+    justify-content:space-between;
+}
+.adidas-shoe1{
+    height:272px;
+    width:25.4%;
+    object-fit:cover;
+}
+.container2{
+    width:100%;
+    height:393px;
+    // background:darkgreen;
+    display:flex;
+    justify-content:center;
+}
+.inside-container2{
+    width:86.7%;
+    height:393px;
+    background:black;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.container2sdiv{
+    width:24.2%;
+    height:393px;
+    // background:darkorange;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.teasermedia{
+    height:265.6px;
+    width:100%;
+    // background:red;
+}
+.teasercontent{
+    height:117.6px;
+    width:100%;
+    // background:blue;
+    display:flex;
+    flex-direction:column;
+    // justify-content:space-around;
+}
+.SHOPNOW{
+    margin-top:10.5px;
+}
+.p{
+    margin-top:10px;
+}
+.SHOPNOW1{
+    margin-top:-10px;
+}
+.list{
+    height:276.4px;
+    width:100%;
+    // background:blue;
+    display:flex;
+    justify-content:center;
+}
+.list1{
+    height:276.4px;
+    width:86.7%;
+    display:flex;
+    flex-direction:column;
+    // background:green;
+    justify-content:space-between;
+}
+.list-header{
+    height:36px;
+    width:100%;
+    // background:red;
+    font-size:30px;
+}
+.list-footer{
+    height:222.4px;
+    width:100%;
+    // background:yellow;
+    margin-bottom:20px;
+    display:flex;
+    flex-direction:column;
+    // justify-content:center;
+    // text-align:justify;
+    
+}
+.inside-list-footer1{
+    display:flex;
+    width:100%;
+    // font-size:47.5px;
+    height:110px;
+}
+.list-tools{
+    margin-top:48px;
+    width:35.57%;
+    height:46.2px;
+    // background:purple;
+    display:flex;
+    align-items:center;
+}
+.words{
+    font-size:47.5px;
+}
+.paragraph-place{
+    width:100%;
+    height:659px;
+    // background:red;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.inside-paragraph-place{
+    width:87.5%;
+    height:410px;
+    // background:yellow;
+    display:flex;
+    justify-content:space-around;
+
+   
+}
+.div-inside-paragraph{
+    height:100%;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin-top:10px;
+    
+}
+.h1{
+    width:750px;
+    height:72px;
+    // position:absolute;
+}
+.paragraph{
+    width:650px;
+    height:462px;
+    // position:absolute;
+}
+.footer{
+    width:100%;
+    height:691.06px;
+    background:black;
+
+}
+.head1{
+    width:100%;
+    height:130px;
+    background:$yellow;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    
+   
+}
+.mid1{
+    width:100%;
+    height:440px;
+    background:$lightgray;
+    margin:0;
+    display:flex;
+    justify-content:space-around;
+    
+    
+    
+}
+.word1{
+    width:54%;
+    height:32px;
+    font-size:30px;
+    margin-bottom:14.5px;
+    font-weight: 900;
+    position:absolute;
+    left:195px;
+
+}
+.button1{
+    width:22.9%;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    position:absolute;
+    right:267.5px;
+    box-shadow:4px 4px $yellow;
+    border-width:4px;
+}
+.span3{
+    width:68.77%;
+    height:20px;
+    font-size:15px;
+    margin-top:1px;
+    // box-shadow:50px 20px;
+}
+.li1{
+    width:13.7%;
+    height:420px;
+    position:absolute;
+    left:175px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+.li2{
+    width:12.3%;
+    height:420px;
+    position:absolute;
+    left:305px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.li3{
+    width:16.7%;
+    height:420px;
+    position:absolute;
+    left:415.5px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.li4{
+    width:17.3%;
+    height:420px;
+    position:absolute;
+    left:550.5px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.li5{
+    width:31.7%;
+    height:420px;
+    position:absolute;
+    left:645px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.li6{
+    width:11.2%;
+    height:420px;
+    position:absolute;
+    left:1200px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.sports{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.sports1{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+   
+}
+.ul1{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    gap:5px;
+}
+.ul2{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    gap:5px;
+}
+.ul3{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    justify-content:left;
+    gap:5px;
+    position:absolute;
+    top:60px;
+   
+}
+.facebook{
+    font-size:20px;
+    position:absolute;
+    right:95px;
+}
+.instagram{
+    font-size:20px;
+    position:absolute;
+    right:95px;
+    top:107.5px;
+}
+.twitter{
+    font-size:20px;
+    position:absolute;
+    right:95px;
+    top:137.5px;
+}
+.tiktok{
+    font-size:20px;
+    position:absolute;
+    right:95px;
+    top:205px;
+}
+.pinterest{
+    font-size:20px;
+    position:absolute;
+    right:93px;
+    top:170px;
+}
+.youtube{
+    font-size:20px;
+    position:absolute;
+    right:95px;
+    top:237.5px;
+}
+.footer2{
+    height:121.3px;
+    width:100%;
+    // position:absolute;
+    // bottom:80px;
+    background:$darkslatesgrey;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.inside-footer2{
+    width:100%;
+    height:54.26px;
+    // background:black;
+}
+.inside-footer3{
+
+}
+.adidas{
+    width:12%;
+    height:80px;
+    padding:0;
+    object-fit:cover;
+}
+.head-top{
+    width:95.7%;
+    height:32px;
+    // background:green;
+    display:flex;
+    justify-content:right;
+}
+.head-bottom{
+    width:95.7%;
+    height:53px;
+    // background:red;
+    display:flex;
+    align-items:center;
+}
+.first{
+    width:4.6%;
+    height:100%;
+    // background:black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.second{
+  width:12.9%;
+  height:100%;
+//   background:yellow;
+  display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.third{
+    width:8.9%;
+    height:100%;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.fourth{
+    width:4.4%;
+    height:100%;
+    // background:red;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.flag{
+    width:40px;
+    height:100%;
+    object-fit:cover;
+}
+.adidas{
+    height:70px;
+    width:12.9%;
+    object-fit:cover;
+    margin-bottom:17.5px;
+}
+.headbottom-ul{
+    width:57.8%;
+    height:47px;
+    // background:green;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    margin-bottom:10px;
+}
+.bottom-icon{
+    width:28.5%;
+    height:48px;
+    // background:black;
+    margin-top:8px;
+    display:flex;
+    align-items:center;
+}
+.search{
+    width:45.4%;
+    height:32px;
+    // background:green;
+    display:flex;
+    justify-content:space-around;
+}
+.search1{
+   width:45.4%;
+   height:32px;
+   background:white;
+}
+.glass{
+   width:9%;
+   height:26.4px;
+//    background:red;
+   position:absolute;
+   right:95px;
+   top:100px;
+}
+.image3{
+
+}
+// .fa-user{
+//     height:48px;
+//     width:48px;
+// }
+ .image4{
+     height:200px;
+     width:100px;
+}
